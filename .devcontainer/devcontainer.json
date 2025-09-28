@@ -4,7 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
   },
-  "postCreateCommand": "python -m pip install fastapi",
+  "postCreateCommand": "uv pip install fastapi || python -m pip install fastapi",
   "customizations": {
     "vscode": {
       "extensions": [
